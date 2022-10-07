@@ -1,9 +1,9 @@
-  .text {
-    font-size: 24px;
-  }
-  .paragraph {
-    color: green;
-  }
-  .list {
-    color: orange;
-  }
+div{
+  display: inline-block;
+}
+span{
+  display: block;
+  width: 200px;
+  height: 100px;
+  background-color: yellow;
+}
