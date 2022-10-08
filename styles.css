@@ -4,9 +4,9 @@
 [data-description]{
   font-size: 24px;
 }
-[href], [target]{
+[href][target]{
   color: green
 }
-[type], [text]{
+[type="text"]{
   background-color: orange;
 }
