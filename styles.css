@@ -10,10 +10,15 @@ li[data-description~="even"] {
 [data-description*="even"] {
   font-size: 24px;
 }
-[href^="https://"]
-{
+[href^="https://"] {
   color: green;
 }
-span[lang="en en-gb en-us"] {
+span[lang="en"] {
+  font-size: 28px;
+}
+span[lang="en-gb"] {
+  font-size: 28px;
+}
+span[lang="en-us"] {
   font-size: 28px;
 }
