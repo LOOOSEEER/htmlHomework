@@ -1,27 +1,17 @@
-.anchor:link{
+li {
+  margin-bottom: 16px;
+}
+li:first-child{
+  background-color: red;
   color: white;
+}
+li:last-child{
   background-color: black;
-}
-.anchor:visited{
-  color: green;
-  background-color: orange;
-}
-.some-button:active, .anchor:active{
-  border: 3px solid red;
-}
-.anchor:hover{
-  font-size: 24px;
-}
-.some-button:disabled{
-  border: 2px dashed grey;
-}
-.some-button:hover:enabled{
   color: white;
+}
+li:nth-child(even) > span{
+  margin-left: 16px;
+}
+.paragraphs:nth-child(odd) > p{
   background-color: grey;
-}
-.search:focus{
-  background-color: orange;
-}
-.confirm-checkbox:checked{
-  margin-left: 20px;
 }
