@@ -25,16 +25,16 @@ input{
 div > p{
   font-size: 25px;
 }
-input:type(text){
+input[type='text']{
   background-color: grey;
 }
-body > div::nth-child(3) > p{
+body > div:nth-child(3) > p{
   background-color: yellow;
 }
-body > div::nth-child(3) > p{
+body > div:nth-child(3) > p{
   border: 5px solid white;
 }
-body > div::nth-child(3) > p{
+body > div:nth-child(3) > p[em]{
   color: white;
   font-size: 20px;
 }
