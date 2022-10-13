@@ -1,17 +1,13 @@
-li {
-  margin-bottom: 16px;
-}
-li:first-child > span{
-  background-color: red;
-  color: white;
-}
-li:last-child > span{
-  background-color: black;
-  color: white;
-}
-li:nth-child(even) > span{
+.theory::first-letter{
   margin-left: 16px;
+  font-size: 36px;
 }
-p:nth-of-type(odd){
-  background-color: grey;
+.theory::first-line{
+  font-size: 24px;
+}
+a::before{
+  content: '>';
+}
+a::after{
+  content: '<';
 }
