@@ -28,13 +28,13 @@ div > p{
 input[type='text']{
   background-color: grey;
 }
-body > div:nth-child(3) > p{
+.div3 p{
   background-color: yellow;
 }
-body > div:nth-child(3) > p{
+.div3 p:nth-child(3){ 
   border: 5px solid white;
 }
-body > div:nth-child(3) > p[em]{
+.div3 em{
   color: white;
   font-size: 20px;
 }
