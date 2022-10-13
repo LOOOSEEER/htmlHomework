@@ -1,6 +1,7 @@
 .theory::first-letter{
   margin-left: 16px;
   font-size: 36px;
+  color: orange;
 }
 .theory::first-line{
   font-size: 24px;
