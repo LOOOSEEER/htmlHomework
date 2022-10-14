@@ -1,18 +1,18 @@
-body{
-  background-color: antiquewhite
+.img{
+  display: block;
+  width: 872;
+  height: 570;
+  background-color: white;
 }
-.content{
-  box-sizing: content-box;
-  background-color: aquamarine;
-}
-.border{
-  box-sizing: border-box;
-  background-color: azure;
-}
-.box{
-  border: 8px solid black;
-  margin: 16px;
-  padding: 16px;
-  height: 128px;
-  width: 512px;
+.rectangle{
+  width: 420px;
+  height: 140px;
+  margin: 50px 100px;
+  border-top: 10px solid firebrick;
+  border-right:  20px solid chartreuse;
+  border-bottom: 10px dashed burlywood;
+  border-left:  20px dashed aqua;
+  background-color: bisque;
+  padding: 20px;
+  font-size: 24px;
 }
