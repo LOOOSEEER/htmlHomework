@@ -1,21 +1,28 @@
-div{
-  box-sizing: content-box;
+*{
   margin: 50px;
-  border: 2px solid black;
+  box-sizing: border-box;
 }
-.div1{
-  height: 412px;
-  background-color: blue;
+.rectangle{
+  width: 100px;
+  height: 50px;
+  background-color: forestgreen;
+  border-radius: 16px;
 }
-.div2{
-  height: 308px;
-  background-color: yellow;
+.oval{
+  width: 100px;
+  height: 50px;
+  background-color: darkmagenta;
+  border-radius: 50%;
 }
-.div3{
-  height: 204px;
-  background-color: green;
-}
-.div4{
+.circle{
+  width: 100px;
   height: 100px;
-  background-color: pink;
+  background-color: aquamarine;
+  border-radius: 50%;
+}
+.triangle{
+  width: 100px;
+  height: 100px;
+  border: 50px solid transparent;
+  border-top-color: brown;
 }
