@@ -1,6 +1,7 @@
 div{
   border: 3px solid black;
   background-color: aqua;
-  border: 50px;
+  margin: 50px;
+  padding: 50px;
   box-sizing: border-box;
 }
