@@ -1,29 +1,24 @@
 *{
   box-sizing: border-box;
 }
-.container{
-  width: 50%;
-  float: left;
+.header{
+  height: 50px;
+  background-color: yellow;
   }
-  .square {
-    width: 100px;
-    height: 100px;
-  }
-  .red{
-  float: right;
-  background-color: red;
-  }
-  .green{
-  float: left;
+   .footer{
+  height: 50px;
   background-color: green;
+  clear: both;
   }
-  section {
-    background: aquamarine;
-    padding: 16px;
+  main{
+  width: 80%;
+  height: 500px;
+  background-color: pink;
+  float: left;
   }
-
-  footer {
-    height: 30px;
-    border: 2px solid black;
-    clear: both;
+  .sidebar{
+  width: 20%;
+  height: 500px;
+  background-color: grey;
+  float: right;
   }
