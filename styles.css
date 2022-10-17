@@ -1,27 +1,66 @@
 *{
   box-sizing: border-box;
 }
-div{
+.content{
+  background-color: beige;
+  height: 5000px;
+}
+.header{
+  background-color: darkturquoise;
+  height: 40px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+}
+
+.nav-list{
+  height: 40px;
+}
+.nav-item{
+  float: left;
+  display: inline;
+  line-height: 50%;
+  margin-left: 16px;
+  color: white;
+}
+.nav-list{
+  height: 40px;
+}
+
+.head{
+  position: absolute;
+  background-color: aquamarine;
+  top: calc(50% - 100px);
+  left: calc(50% - 100px);
   height: 200px;
-  width: 20%;
+  width: 200px;
+ }
+
+.ear{
+  height: 60px;
+  width: 40px;
+  background-color: brown;
+  position: absolute;
+  top: -60px;;
 }
-.block_red{
-  background-color: red;
-  float: left;
+.ear_right{
+  right: -40px;
 }
-.block_green{
-  background-color: green;
-  float: left;
+.ear_left{
+  left: -40px;
 }
-.block_blue{
-  background-color: blue;
-  float: left;
+
+.eye{
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: grey;
+  position: absolute;
+  top: 80px;
 }
-.block_yellow{
-  background-color: yellow;
-  float: left;
+.eye_right{
+  right: 40px;
 }
-.block_black{
-  background-color: black;
-  float: left;
+.eye_left{
+  left: 40px;
 }
