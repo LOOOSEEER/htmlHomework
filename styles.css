@@ -12,15 +12,16 @@
   position: fixed;
   z-index: 2;
 }
-
+nav{
+  height: 40px;
+}
 .nav-item{
   float: left;
   display: inline;
   line-height: 50%;
   margin-left: 16px;
   color: white;
-  height: 40px;
-  box-sizing: content-box;
+
 }
 .nav-list{
   height: 40px;
