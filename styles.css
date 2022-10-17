@@ -13,15 +13,19 @@
   z-index: 2;
 }
 .nav-item{
+  position: relative;
   float: left;
   display: inline;
-  line-height: 50%;
+  line-height: 40px;
   margin-left: 16px;
   color: white;
-
 }
 .nav-list{
   height: 40px;
+  margin: 0px;
+}
+.navigation{
+  position: relative;
 }
 
 .head{
