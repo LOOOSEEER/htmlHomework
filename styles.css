@@ -12,9 +12,6 @@
   position: fixed;
   z-index: 2;
 }
-nav{
-  height: 40px;
-}
 .nav-item{
   float: left;
   display: inline;
