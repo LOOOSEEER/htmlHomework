@@ -1,15 +1,46 @@
-.block {
-  background-color: coral;
-  margin: 8px;
-  height: 100px;
-  width: 100px;
+.header {
+  height: 40px;
+  background-color: yellow;
+  display: flex;
+  align-items: center;
+}
+.footer {
+  height: 40px;
+  background-color: green;
+  display: flex;
+}
+.navigation {
+  margin: 0;
+  display: flex;
+  list-style-type: none;
+}
+.item {
+  margin-right: 10px;
+}
+.text_footer {
+  margin: auto;
+}
+.news{
+  display: flex;
+  justify-content: center;
+}
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+.main {
+  flex-grow: 1;
+  display: flex;
+}
+.section {
   display: flex;
   flex-grow: 1;
-  flex-shrink: 0;
-  min-width: 100px;
+  background-color: pink;
+  justify-content: center;
+  align-items: center;
 }
-.container{
-  display: flex;
-  flex-wrap: wrap;
-
+.aside {
+  width: 200px;
+  background-color: grey;
 }
