@@ -20,7 +20,6 @@
 
   .horizontal > span {
     background-color: aqua;
-    height: 24px;
   }
   .vertical > span {
     background-color: coral;
