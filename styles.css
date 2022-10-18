@@ -10,13 +10,13 @@
   display: flex;
 }
 .navigation {
-  margin: 16px;
+  margin-left: 16px;
   padding: 0;
   display: flex;
   list-style-type: none;
 }
 .item {
-  margin-right: 10px;
+  margin-right: 16px;
 }
 .text_footer {
   margin: auto;
@@ -37,6 +37,7 @@
   display: flex;
 }
 .list{
+  line-height: 40px;
   padding: 0;
 }
 .list > li{
