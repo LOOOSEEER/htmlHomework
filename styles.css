@@ -33,6 +33,10 @@
   flex-grow: 1;
   display: flex;
 }
+.list > li{
+  height: 40px;
+  list-style-type: none
+}
 .section {
   display: flex;
   flex-grow: 1;
