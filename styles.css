@@ -1,67 +1,27 @@
-*{
-  box-sizing: border-box;
-}
-.content{
-  background-color: beige;
-  height: 5000px;
-}
-.header{
-  background-color: darkturquoise;
-  height: 40px;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-}
-.nav-item{
-  position: relative;
-  float: left;
-  display: inline;
-  line-height: 40px;
-  margin-left: 16px;
-  color: white;
-}
-.nav-list{
-  height: 40px;
-  margin: 0px;
-}
-.navigation{
-  position: relative;
-}
+  .horizontal{
+    height: 50px;
+    flex-direction: row;
+  }
+  .vertical{
+    height: 200px;
+    flex-direction: column;
+  }
+  html {
+    font-size: 24px;
+  }
 
-.head{
-  position: absolute;
-  background-color: aquamarine;
-  top: calc(50% - 100px);
-  left: calc(50% - 100px);
-  height: 200px;
-  width: 200px;
- }
+  div {
+    margin: 16px;
+    border: 1px solid burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
 
-.ear{
-  height: 60px;
-  width: 40px;
-  background-color: brown;
-  position: absolute;
-  top: -60px;;
-}
-.ear_right{
-  right: -40px;
-}
-.ear_left{
-  left: -40px;
-}
-
-.eye{
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  background-color: grey;
-  position: absolute;
-  top: 80px;
-}
-.eye_right{
-  right: 40px;
-}
-.eye_left{
-  left: 40px;
-}
+  .horizontal > span {
+    background-color: aqua;
+    height: 24px;
+  }
+  .vertical > span {
+    background-color: coral;
+  }
