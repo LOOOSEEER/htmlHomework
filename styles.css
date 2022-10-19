@@ -1,14 +1,20 @@
-div > div{
-  width: 100px;
+.articles{
+  display: flex;
+}
+.articles div{
   height: 100px;
-  background: coral;
+  width: 150px;
+  background-color: beige;
+  margin: 16px;
+  flex-wrap: wrap;
 }
- div > div:nth-child(1){
-  display: none;
+.cropped{
+  overflow: hidden;
 }
-div > div:nth-child(2){
-  visibility: hidden;;
+.both-scrolls{
+  overflow: scroll;
 }
-div > div:nth-child(3){
-  display: visible;
+.vertical-scroll{
+  overflow-y: scroll;
+  cursor: all-scroll;
 }
