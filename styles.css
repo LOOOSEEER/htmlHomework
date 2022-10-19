@@ -1,24 +1,19 @@
-body{
-  display: flex;
+*{
+  box-sizing: border-box;
 }
-.block{
+header{
   display: flex;
+  justify-content: center;
+}
+.article-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.article{
+  margin: 8px;
+  padding: 16px;
+  background-color: bisque;
   flex-grow: 1;
-  width: 20%;
-  height: 300px;
-  }
-  .block_red{
-    background-color: red;
-  }
-  .block_green{
-    background-color: green;
-  }
-  .block_blue{
-    background-color: blue;
-  }
-  .block_yellow{
-    background-color: yellow;
-  }
-  .block_black{
-    background-color: black;
-  }
+  flex-shrink: 0;
+  flex-basis: 300px;
+}
