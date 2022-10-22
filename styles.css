@@ -2,11 +2,13 @@ html{
 font-family: Verdana;
 }
 header{
+width: 50vw;
+}
+h1{
 font-size: 74px;
-width: 50%;
 overflow: hidden;
-text-overflow: ellipsis;
 white-space: nowrap;
+text-overflow: ellipsis;
 }
 div{
 height: 200px;
