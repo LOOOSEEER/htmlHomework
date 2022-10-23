@@ -1,13 +1,28 @@
-.list{
-  list-style-type: none;
-  font-size: 150%;
+html{
+  font-family: Roboto, sans-serif;
+  font-size: 18px;
 }
-.first{
-  text-decoration: red overline;
+section{
+  margin: 32px;
 }
-.second{
-  text-decoration: line-through;
+h1{
+  word-spacing: 20px;
+  text-align: center;
+  text-transform: uppercase;
 }
-.third{
-  text-decoration: green underline
+p{
+  line-height: 28px;
+}
+.fat{
+  font-weight: 900;
+  letter-spacing: 3px;
+  font-size: 24px;
+  opacity: 80%;
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+em{
+  color: grey
 }
