@@ -1,15 +1,10 @@
-*{
-  box-sizing: border-box;
-}
 .image-container{
-  display: block;
-  height: 333px;
+  display: flex;
   position: relative;
 }
 .image{
-  position: absolute;
   display: block;
-  left: calc(50% - 250px);
+  margin: 0 auto;
   max-width: 100%;
 }
 .image-button{
