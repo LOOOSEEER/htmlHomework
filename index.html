@@ -11,16 +11,40 @@
     />
     <link rel="stylesheet" href="styles.css">
   </head>
+  <style>
+    .form-controls{
+      margin: 16px;
+    }
+  </style>
 
   <body>
-    <div class="image-container">
-      <img
-        class="image"
-        src="https://gromcode.s3.eu-central-1.amazonaws.com/front-end/html-css/lesson15/hw1/big.jpeg"
-        alt="Forest"
-      />
-      <span class="image-button">Later I'll do something</span>
+
+    <div class="form-controls">
+      <input type="text" name="lastName" value="Emerson">
     </div>
+
+    <div class="form-controls">
+      <input type="number" name="age" value="17">
+    </div>
+
+    <div class="form-controls">
+      <input type="checkbox" name="agree">Accept terms and conditions
+    </div>
+
+    <div class="form-controls">
+      <input class="choose-gender" type="radio" name="gender"><label>Male</label>
+      <input class="choose-gender" type="radio" name="gender"><label>Female</label>
+      <input class="choose-gender" type="radio" name="gender"><label>Secret</label>
+    </div>
+
+    <div class="form-controls">
+      <textarea name="description" placeholder="Write description..."></textarea>
+    </div>
+
+    <div class="form-controls">
+      <button type="submit" name="Submit">Submit
+    </div>
+
   </body>
 </html>
 
