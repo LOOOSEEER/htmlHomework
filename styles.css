@@ -1,6 +1,5 @@
 body{
   margin: 16px;
-  box-sizing: border-box;
 }
 input[type="checkbox"]{
   visibility: hidden;
@@ -17,7 +16,7 @@ input[type="checkbox"]{
   left: 0;
 }
 .checkbox{
-line-height: 24px;
+  display: block;
   padding-left: 35px;
   position: relative;
   font-size: 24px;
