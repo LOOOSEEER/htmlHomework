@@ -2,103 +2,129 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Checkbox</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
       integrity="sha256-WAgYcAck1C1/zEl5sBl5cfyhxtLgKGdpI3oKyJffVRI="
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="styles.css">
-  </head>
+    <link rel="stylesheet" href="styles.css" />
 
+
+  </head>
   <body>
     <form>
       <div class="controls">
-        <input type="text" name="primaryLanguage" value="HTML" disabled>
+        <input type="text" name="primaryLanguage" value="HTML" disabled />
       </div>
 
       <div class="controls">
-        <input type="checkbox" name="agree" unchecked>
+        <input type="checkbox" name="agree"  />
       </div>
 
       <div class="controls">
-        <input type="checkbox" name="like" readonly checked>
+        <input type="checkbox" name="like"  checked readonly/>
       </div>
 
       <div class="controls">
-        <input type="color" name="favouriteColor" value="#ff7f50">
+        <input type="color" name="favouriteColor"  value="#ff7f50"/>
       </div>
 
       <div class="controls">
-        <input type="date" name="birthDate" value="2021-01-02">
+        <input type="date" name="birthDate" value="2021-01-02" />
       </div>
-      
+
       <div class="controls">
-        <input type="datetime-local" name="birthTime" value="2024-10-04T13:02">
+        <input type="datetime-local" name="birthTime" value="2024-10-04T13:02" />
       </div>
-      
+
       <div class="controls">
-        <input type="email" name="email" placeholder="example@domain.com" required>
+        <input
+          type="email" name="email" placeholder="example@domain.com"
+          required
+        />
       </div>
-      
+
       <div class="controls">
-        <input type="file" name="avatar">
+        <input type="file" name="avatar" />
       </div>
-      
+
       <div class="controls">
-        <input type="month" name="startLearning" value="2020-01">
+        <input type="month" name="startLearning" value="2020-01" />
       </div>
-      
+
       <div class="controls">
-        <input type="number" name="favouriteNumber" value="17">
+        <input type="number" name="favouriteNumber" value="17" />
       </div>
-      
+
       <div class="controls">
-        <textarea name="story" rows="5" cols="30" placeholder="A long time ago..."></textarea>
+        <textarea
+          name="story"
+          id=""
+          cols="30"
+          rows="5"
+          placeholder="A long time ago..."
+        ></textarea>
       </div>
-      
+
       <div class="controls">
-        <input type="password" name="password" value="secret">
+        <input type="password" name="password" value="secret" />
       </div>
-      
+
       <div class="languages">
-        <input type="radio" name="language" value="html"><label> HTML</label>
-        <input type="radio" name="language" value="css" checked><label> CSS</label>
-        <input type="radio" name="language" value="javascrit"><label> JavaScript</label>
+        <input type="radio" id="html" name="gender" value="html" />
+        <label for="html">HTML</label>
+
+        <input type="radio" id="css" name="gender" value="css" checked />
+        <label for="css">CSS</label>
+
+        <input type="radio" id="js" name="gender" value="javascript" />
+        <label for="js">JavaScript</label>
       </div>
-      
+
       <div class="controls">
-        <input type="range" name="learningProgress" value="30">
+        <input type="range" name="learningProgress" value="30" />
       </div>
-      
+
       <div class="controls">
-        <select name="framework">
+        <select name="framework" id="">
           <option value="react">React</option>
-          <option value="jquery" selected>JQuery</option>
+          <option value="jquery" selected>jQuery</option>
           <option value="bootstrap">Bootstrap</option>
+        </select>
+      </div>
+      
+      <div class="controls">
+        <input
+          type="search"
+          name="search"
+          placeholder="Type first letters..."
+        />
       </div>
 
       <div class="controls">
-        <input type="search" name="search" placeholder="Type first letters...">
+        <input type="time" name="lunchEnd" value="14:01" />
       </div>
 
       <div class="controls">
-        <input type="time" name="launchEnd" value="14:01">
+        <input
+          type="url"
+          name="website"
+          placeholder="https://website.com"
+          required
+        />
       </div>
 
       <div class="controls">
-        <input type="url" name="website" placeholder="https://website.com" required>
-      </div>
-
-      <div class="controls">
-        <input type="week" name="birthWeek" value="2021-W51">
-      </div>
-
-      <div class="controls">
-        <button type="submit">Save
-      </div>
-    </form>
+        <input type="week" name="birthWeek" value="2021-W51" />
+    </div>
+    
+    <div class="controls">
+      <button type="submit" name="Save">Save</button>
+    </div>
+  
+  </form>
   </body>
 </html>
-
