@@ -36,9 +36,6 @@
   padding: 4px;
   outline: none;
 }
-.form-input::placeholder{
-  color: #000000;
-}
 input:required{
   border: 3px solid #ff0000;
 }
