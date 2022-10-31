@@ -1,51 +1,19 @@
-* {
-  box-sizing: border-box;
+.row{
+  display: flex;
 }
-table {
-  margin: 16px;
-  border: 1px solid black;
-  border-collapse: collapse; 
+.small-bird{
+  height: 64px;
+  width: 64px;
 }
-td {
-  width: 50px;
-  height: 50px;
-  text-align: center;
-  justify-content: center;
-  padding: 0px; 
+.large-bird{
+  height: 320px;
+  width: 320px;
 }
-tbody > tr > td {
-  border: 1px solid black;
-}
-tr:first-child > td {
-  border: 0;
-} 
-tr:last-child > td {
-  border: 0;
-} 
-td:first-child, td:last-child {
-  border: 0;
-}
-tr:nth-child(even) > td:nth-child(odd){
-  background-color: black; 
-}
-tr:nth-child(even) > td:first-child, td:last-child {
-  background-color: white; 
-}
-tr:nth-child(odd) > td:nth-child(even){
-  background-color: black;
-}
-tr:nth-child(odd) > td:last-child, td:first-child {
-  background-color: white;
-}
-tr:nth-child(even) > td:nth-child(even){
-  background-color: white;
-}
-tr:first-child > td:nth-child(even) {
-  background-color: white;
-}
-tr:nth-child(odd) > td:nth-child(odd){
-  background-color: white;
-}
-tr:last-child > td:nth-child(odd) {
-  background-color: white;
+.column{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: 1;
+  margin: auto;
+
 }
