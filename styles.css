@@ -1,19 +1,32 @@
-.row{
-  display: flex;
+body{
+  display: inline-block;
 }
-.small-bird{
-  height: 64px;
-  width: 64px;
+.custom-button{
+  /* float: left; */
+  display: inline;
+  margin: 64px;
+  padding: 0;
+  width: 200px;
+  height: 50px;
+  background-color: coral;
+  color: white;
+  line-height: 50px;
+  border-radius: 4px;
+  text-transform: uppercase;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
 }
-.large-bird{
-  height: 320px;
-  width: 320px;
+.custom-button:hover{
+  color: darkcyan;
 }
-.column{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  flex: 1;
-  margin: auto;
-
+.bird-icon{
+  fill: white;
+  width: 32px;
+  height: 32px;
+  vertical-align: middle;
+}
+.custom-button:hover > .bird-icon{
+  fill: green;
 }
