@@ -1,8 +1,8 @@
 body{
   display: inline-block;
+  box-sizing: border-box;
 }
 .custom-button{
-  /* float: left; */
   display: inline;
   margin: 64px;
   padding: 0;
@@ -10,7 +10,6 @@ body{
   height: 50px;
   background-color: coral;
   color: white;
-  /* line-height: 50px; */
   border-radius: 4px;
   text-transform: uppercase;
   font-family: 'Courier New', Courier, monospace;
@@ -18,7 +17,7 @@ body{
   border: none;
   cursor: pointer;
 }
-.button-text:hover{
+.custom-button:hover{
   color: darkcyan;
 }
 .bird-icon{
@@ -27,6 +26,6 @@ body{
   height: 32px;
   vertical-align: middle;
 }
-.button-text:hover + .bird-icon{
+.custom-button:hover > .bird-icon{
   fill: green;
 }
