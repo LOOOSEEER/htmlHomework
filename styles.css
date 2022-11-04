@@ -13,11 +13,11 @@ body{
   align-items: center;
   height: 100px;
   width: 100px;
+  transition: width 2s, opacity 0.5s;
 }
 .rect:hover{
   width: 100%;
   opacity: 1;
-  transition-duration: 2s;
 }
 .rect.linear{
   transition-timing-function: linear;
