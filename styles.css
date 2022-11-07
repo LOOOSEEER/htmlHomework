@@ -1,13 +1,10 @@
-/* body{
-  box-sizing: border-box;
-} */
 .container{
   display: flex;
   height: 100vh;
 }
 .spinner{
+  padding: 0;
   margin: auto;
-  box-sizing: border-box;
 }
 .spinner-text{
   font-family: monospace;
@@ -17,7 +14,6 @@
 }
 .circle{
   margin: auto;
-  margin-top: 1px;
   box-sizing: border-box;
   height: 50px;
   width: 50px;
