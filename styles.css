@@ -17,6 +17,7 @@
 }
 .circle{
   margin: auto;
+  margin-top: 1px;
   box-sizing: border-box;
   height: 50px;
   width: 50px;
