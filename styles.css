@@ -1,22 +1,17 @@
-.container{
-  position: absolute;
-  top: calc(50vh - 9.2px);
-  left: calc(50vw - 43.99px);
+* {
+  box-sizing: border-box;
 }
-.spinner-text{
-  font-family: monospace;
-  font-size: 16px;
-  text-transform: uppercase;
-  animation: blinking 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
+.square{
+  height: 100px;
+  width: 100px;
+  background-color: tomato;
+  transform: translate(200px, 100px) rotate(45deg) scale(1.5);
 }
-.rect{
-  position: absolute;
-  background-color: black;
-  width: 10px;
-  height: 4px;
-  border-radius: 2px;
-  animation: moving 2s alternate linear, blinking 2s;
-  animation-iteration-count: infinite;
+
+p {
+  margin: 0 32px;
+  padding: 8px;
+  background-color: antiquewhite;
+  display: inline-block;
+  border-radius: 4px;
 }
