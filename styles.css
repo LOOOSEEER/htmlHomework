@@ -1,18 +1,75 @@
+*{
+  box-sizing: border-box;
+}
 html{
-  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
 }
-.font-in-px{
-  font-size: 27px;
+body{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.font-in-em{
-  font-size: 1.5em;
+.header{
+  display: flex;
+  background-image: linear-gradient(60deg, red, orange);
+  justify-content: center;
 }
-.font-in-vw{
+h1{
+  color: white;
+}
+.footer{
+  background-color: #e5e5e5;
+  padding: 8px;
+  text-align: center;
+}
+.main{
+  display: flex;
+  flex: 1;
+}
+.navigation, .section, .news{
+  padding: 0.5 em;
+}
+.navigation{
+  width: 20%;
+}
+.section{
+  width: 60%;
+  font-size: 1.25em;
+}
+.news{
+  width: 20%;
+}
+.units-list{
+  line-height: 1.75em;
+}
+.css-units{
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 112.5%;
+  font-weight: 700;
+}
+.section__header{
   font-size: 5vw;
+  text-align: center;
 }
-.font-in-percents{
-  font-size: 150%;
+.nav-list{
+  list-style-type: none;
+  padding: 8px;
 }
-.font-in-rem{
-  font-size: 1.5rem;
+.nav-list-item{
+  background-color: #808080;
+  color: white;
+  margin-bottom: 0.5em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.nav-list-link{
+  color: white;
+  line-height: 2em;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  text-decoration: none;
 }
