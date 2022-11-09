@@ -32,13 +32,16 @@ h1{
   padding: 0.5 em;
 }
 .navigation{
+  justify-content: center;
   width: 20%;
 }
 .section{
+  justify-content: center;
   width: 60%;
   font-size: 1.25em;
 }
 .news{
+justify-content: center;
   width: 20%;
 }
 .units-list{
@@ -70,6 +73,5 @@ h1{
   color: white;
   line-height: 2em;
   padding-left: 0.5em;
-  padding-right: 0.5em;
   text-decoration: none;
 }
