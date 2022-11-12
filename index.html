@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Media Queries</title>
+    <title>Gallery</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
@@ -13,12 +13,12 @@
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
-    <main class="all-content">
-      <section class="content">
-        <div class="navigation"><span>Navigation</span></div>
-        <div class="products"><span>Products List</span></div>
-      </section>
-      <div class="news"><span>News</span></div>
+    <main>
+      <picture>
+        <source srcset="big.jpeg" media="(min-width: 400px)">
+        <source srcset="small.jpg">
+        <img src="big.jpeg" alt="Tree">
+      </picture>
     </main>
   </body>
 </html>
