@@ -1,6 +1,5 @@
 main{
   display: flex;
-  height: 100vh;
 }
 picture{
   max-width: 100%;
