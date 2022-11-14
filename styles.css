@@ -34,7 +34,7 @@ html{
 .nav-list-item{
   display: flex;
   background-color: #808080;
-  margin-bottom: 0.5em;
+  margin-bottom: 0.3em;
 
 }
 .nav-list-link{
