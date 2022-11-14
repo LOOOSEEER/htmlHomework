@@ -8,8 +8,8 @@ html{
 .header{
   display: flex;
   height: 3em;
-  padding-left: 1 em;
-  padding-right: 1 em;
+  padding-left: 1em;
+  padding-right: 1em;
   background-color: #eee;
 }
 .fa-bars{
@@ -34,7 +34,9 @@ html{
 .nav-list-item{
   display: flex;
   background-color: #808080;
-  margin-bottom: 0.3em;
+  color: white;
+  height: 2em;
+  margin-bottom: 0.5em;
 
 }
 .nav-list-link{
