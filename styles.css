@@ -1,59 +1,101 @@
-*{
+* {
   box-sizing: border-box;
 }
-html{
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-}
-.header{
+body {
   display: flex;
-  height: 3em;
-  padding-left: 1em;
-  padding-right: 1em;
-  background-color: #eee;
+  flex-direction: column;
+  min-height: 100vh;
 }
-.fa-bars{
-  font-size: 2em;
+html {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: #555;
+  font-size: 16px;
+  min-height: 100vh;
 }
-.button{
-  padding: none;
-  outline: none;
-  border: none;
-  background-color: transparent;
-  cursor: pointer;
+.header {
+  display: flex;
+  background-image: linear-gradient(60deg, red, orange);
   justify-content: center;
 }
-.nav-list{
+h1 {
+  color: white;
+}
+.main {
+  flex: 1;
+  display: flex;
+}
+.footer {
+  background-color: #e5e5e5;
+  padding: 8px;
+  text-align: center;
+}
+.units-list {
+  line-height: 1.75em;
+}
+.css-units {
+  color: #8b0000;
+  background-color: #e5e5e5;
+  font-size: 112.5%;
+  font-weight: 700;
+}
+.section__header {
+  font-size: 5vw;
+  text-align: center;
+}
+.nav-list {
   list-style-type: none;
   padding: 0;
 }
-.navigation{
-  max-width: 20%;
-  padding: 0.5em;
-}
-.nav-list-item{
-  display: flex;
-  background-color: #808080;
+.nav-list-link {
   color: white;
-  height: 2em;
-  margin-bottom: 0.5em;
-
-}
-.nav-list-link{
-  padding: 0.5em;
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
+  line-height: 2em;
   text-decoration: none;
-  color: white;
 }
-@media screen and (min-width: 600px){
-  .button .fa-bars{
-    visibility: hidden;
+.nav-list-item {
+  background-color: #808080;
+  margin-bottom: 0.5em;
+  color: white;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+}
+.navigation_section {
+  display: flex;
+}
+.pic {
+  margin: auto;
+}
+.image {
+  max-width: 100%;
+  max-height: 100%;
+  box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.2);
+}
+@media screen and (max-width: 600px) {
+  .navigation_section {
+    flex-direction: column;
   }
 }
-@media  screen and (max-width: 599px){
-  .navigation{
-    visibility: hidden;
+.navigation {
+  min-width: 20vw;
+  padding: 0.5em;
+}
+.section {
+  padding: 0.5em;
+  min-width: 60vw;
+  font-size: 1.25em;
+}
+.news {
+  min-width: 20vw;
+  padding: 0.5em;
+  flex: 1;
+}
+@media screen and (max-width: 1199px) {
+  .navigation_section {
+    display: flex;
+  }
+  .main {
+    flex-direction: column;
   }
 }
