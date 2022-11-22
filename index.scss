@@ -4,11 +4,24 @@
     box-sizing: border-box;
 }
 
-body{
+.container{
     display: flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
+    flex-direction: column;
+
+    @include for-medium-up{
+        flex-direction: row;
+    }
+
+    @include for-large{
+        flex-direction: row;
+    }
+
+    @include for-large-up{
+        flex-direction: row;
+    }
 }
 
 .square{
