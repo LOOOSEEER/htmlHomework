@@ -9,7 +9,7 @@ $lg: 1200px;
 }
 
 @mixin for-extra-small-landscape {
-    @media screen and (max-height: $sm) {
+    @media screen and (orientation: landscape) {
         @content;
     }
 }
