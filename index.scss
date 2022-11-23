@@ -11,6 +11,10 @@
     height: 100vh;
     flex-direction: column;
 
+    @include for-extra-small-landscape{
+        flex-direction: row;
+    }
+
     @include for-medium-up{
         flex-direction: row;
     }
@@ -22,6 +26,7 @@
     @include for-large-up{
         flex-direction: row;
     }
+    
 }
 
 .square{
